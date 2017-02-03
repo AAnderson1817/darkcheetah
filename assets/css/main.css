@@ -2191,7 +2191,7 @@
 	select,
 	textarea {
 		background: rgba(144, 144, 144, 0.075);
-		border-color: #eaeaea;
+		border-color: #ffffff;
 	}
 
 		input[type="text"]:focus,
