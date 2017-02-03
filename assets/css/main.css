@@ -1641,7 +1641,7 @@
 
 	body {
 		background-color: #333333;
-		color: #8e8e8e;
+		color: ##f9f7f7;
 	}
 
 	body, input, select, textarea {
@@ -1699,6 +1699,8 @@
 
 	p {
 		margin: 0 0 2em 0;
+		color: #777777;
+		font-family:Tahoma;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1830,11 +1832,11 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777777;
+		color: #303030;
 	}
 
 	blockquote {
-		border-left-color: #eaeaea;
+		border-left-color: #f9f7f7;
 	}
 
 	code {
@@ -1959,9 +1961,9 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #eaeaea;
-		color: #777777 !important;
+		background-color: #3306bc;
+		/*box-shadow: inset 0 0 0 2px #eaeaea;*/
+		color: #f9f7f7 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1970,7 +1972,7 @@
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #84dbbd;
-			color: #84dbbd !important;
+			color: ##f9f7f7 !important;
 		}
 
 		input[type="submit"]:active,
@@ -1989,7 +1991,7 @@
 		button.special,
 		.button.special {
 			box-shadow: none;
-			background-color: #84dbbd;
+			background-color: #0757df;
 			color: #ffffff !important;
 		}
 
@@ -1998,7 +2000,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #70d5b2;
+				background-color: #8fd9ff;
 				color: #ffffff !important;
 			}
 
@@ -2632,6 +2634,7 @@
 
 	section.special, article.special {
 		text-align: center;
+		background-color: #ffffff;
 	}
 
 	section header, article header {
@@ -3703,4 +3706,22 @@
 		background-color: #ffffff;
 		min-height: 100vh;
 		opacity: 1;
+	}
+
+
+
+
+
+
+
+
+	/* Adaptations */
+
+	#cta {
+		background-color:#0d47d0;
+		color: #ffffff;
+	}
+
+	#userhead {
+		color: #ffffff;
 	}
